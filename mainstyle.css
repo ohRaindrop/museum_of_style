@@ -1,0 +1,81 @@
+/** COLORS
+60: #fefae0
+    #faedcd
+30: #d4a373
+10: #723e31
+    #b4654a
+*/
+
+html{
+    font-family: "Quicksand", sans-serif;    
+}
+
+body{
+    background: #fefae0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+/** NAV BAR */
+
+#main_navbar {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#main_navbar .navbar {
+    background-color: #fefae0;
+    }
+
+#main_navbar .navbar-brand{
+    color: #723e31;
+    font-size: 1.5rem;
+}
+
+#main_navbar .nav-link{
+    color: #d4a373;
+}
+
+#main_navbar .nav-link:hover{
+    color:#723e31;
+}
+
+/** CONTENT */
+/* .container{
+    margin-top:100px;
+    margin-bottom:100px ;
+} */
+
+
+/** HEADING GROUP */
+
+#heading_group {
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+#heading_group span {
+    color:#b4654a;
+}
+
+.img-fluid{
+    border-radius: 30px;
+}
+
+@media(max-width: 600px){
+    #heading_group h2{
+        font-weight: 100;
+        font-size:3rem;
+    }
+}
+@media(max-width: 400px){
+    #heading_group h2{
+        color:#723e31;
+        font-weight: 100;
+        font-size:0.8rem;
+/*TO DO: metti scritta sovrapposta all'immagine*/
+    }
+}
